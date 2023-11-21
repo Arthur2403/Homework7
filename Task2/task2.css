@@ -1,0 +1,41 @@
+.Menu{
+    text-align: center;
+    width: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    transition: width 1s; 
+    z-index: 1;
+    color: white;
+}
+.Menu:hover{
+    width: 200px;
+    z-index: 3;
+}
+img{
+    width: 60px;
+    height: 40px;
+}
+.Menu div{
+    height: 20px;
+}
+.menuwords{
+    position: absolute;
+    left: 100px;
+}
+.Menu > p{
+    font-size: large;
+}
+.text{
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    z-index: 2;
+}
